@@ -1,0 +1,14 @@
+<persistence version="2.0">
+  <persistence-unit name="dps_genericAccess" transaction-type="RESOURCE_LOCAL">
+   <properties>
+     <property name="versant.connectionURL" value="dps_integration@localhost"/>
+     <property name="versant.genericAccess" value="true"/>
+     <property name="versant.password" value="shversant"/>
+     <property name="versant.username" value="versant"/>
+     <property name="versant.jmxServer" value="true"/>
+     <property name="versant.jmxServer.username" value="versant" />
+     <property name="versant.jmxServer.password" value="shversant" />
+     <property name="versant.unresolvableReferenceStrategy" value="REPAIR" />
+   </properties>
+  </persistence-unit>
+</persistence>
